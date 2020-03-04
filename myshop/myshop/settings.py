@@ -132,3 +132,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # to myshop/urls.py
 
 CART_SESSION_ID = 'cart'
+
+CELERY_BROKER_URL = 'amqp://localhost'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
