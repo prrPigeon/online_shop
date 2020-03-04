@@ -171,10 +171,13 @@ ul.errorlist {
 #sidebar ul li.selected {
     background:#5993bb;
     border-radius:4px;
+    
 }
 
 #sidebar ul li.selected a {
     color:#fff;
+    display: inline;
+
 }
 
 #main {
